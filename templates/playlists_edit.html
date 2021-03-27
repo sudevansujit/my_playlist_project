@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form method='POST' action='/playlists'>
+<form method='POST' action='/playlists/{{playlist._id}}'>
     <fieldset>
         <legend>New Playlist</legend>
         <!-- TITLE -->
@@ -15,7 +15,7 @@
         <p>
             <label for='description'>Description</label><br>
             <input id='description' type='text' name='description' />
-        </p>
+        </p>            
 
         <!-- VIDEO IDS -->
         <p>
@@ -31,7 +31,6 @@
     </p>
 </form>
 {% endblock %}
-
 {% extends 'base.html' %}
 
 {% block content %}
