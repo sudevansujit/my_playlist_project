@@ -1,0 +1,24 @@
+[
+    {
+  "vessel_name": "MTM Shanghai",
+  "length": "230",
+  "breadth": 30,
+  "draught":  "20",
+     
+  },
+  
+  {
+  "vessel_name": "MTM Mumbai",
+  "length": "240",
+  "breadth": 35,
+  "draught":  "25",
+     
+  },
+  {
+  "vessel_name": "MTM Singapore",
+  "length": "250",
+  "breadth": 25,
+  "draught":  "18",
+     
+  },
+]
